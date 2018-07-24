@@ -1,0 +1,525 @@
+[20180315 171414 348][INFO ][main][NamedProperties] - U 更新 refresh(com.bs3.ioc.core.BeansContext) = [23] file:/D:/workspace/lianDongYouShi/Dps-httpDrawboard/resource/mina2niocs.properties
+[20180315 171414 903][INFO ][main][BeansContext] - # Beans Defined  3 [NioExecutor, NioServer, NioServerHandler]
+[20180315 171414 904][INFO ][main][BeansContext] - # Beans Started  3 [NioExecutor, NioServer, NioServerHandler]
+[20180315 171414 904][INFO ][main][NioServerHandler] - 初始化跳板服务成功
+[20180315 172851 126][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000002: nio socket, server, /127.0.0.1:56310 => /127.0.0.1:9018)...Sessions=1
+[20180315 172851 165][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 172851 583][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 172851 614][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 172851 614][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 172851 619][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 172851 619][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 172851 619][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 172851 619][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 172851 684][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 172851 955][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3cc67f748c1c96ec2f0b","result":"0","msg":""}
+[20180315 172851 970][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:805*****返回给商户侧报文:{"serialNo":"5aaa3cc67f748c1c96ec2f0b","result":"0","msg":""}
+[20180315 172901 973][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x00000002: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 172901 974][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x00000002] 读1/486B,写1/191B,历时897ms,读写速度:2.2(R+W/s)/0.75(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 173000 408][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000003: nio socket, server, /127.0.0.1:56518 => /127.0.0.1:9018)...Sessions=1
+[20180315 173000 409][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173000 409][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173000 410][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173000 410][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173000 410][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173000 410][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173000 410][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173000 410][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173000 412][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173000 559][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d0b7f748c1c96ec2f44","result":"0","msg":""}
+[20180315 173000 559][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:150*****返回给商户侧报文:{"serialNo":"5aaa3d0b7f748c1c96ec2f44","result":"0","msg":""}
+[20180315 173000 569][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173000 569][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173000 569][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173000 569][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173000 570][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173000 570][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173000 570][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173000 570][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173000 571][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173000 702][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d0b7c3a7a6eb11f1e65","result":"0","msg":""}
+[20180315 173000 703][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:134*****返回给商户侧报文:{"serialNo":"5aaa3d0b7c3a7a6eb11f1e65","result":"0","msg":""}
+[20180315 173000 708][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173000 708][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173000 708][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173000 708][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173000 708][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173000 708][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173000 708][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173000 708][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173000 710][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173000 841][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d05200a8f6bd1ac043d","result":"0","msg":""}
+[20180315 173000 843][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:135*****返回给商户侧报文:{"serialNo":"5aaa3d05200a8f6bd1ac043d","result":"0","msg":""}
+[20180315 173000 853][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173000 853][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173000 853][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173000 853][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173000 853][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173000 853][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173000 854][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173000 854][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173000 856][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173000 999][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d0b7f748c1c96ec2f45","result":"0","msg":""}
+[20180315 173001 000][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:147*****返回给商户侧报文:{"serialNo":"5aaa3d0b7f748c1c96ec2f45","result":"0","msg":""}
+[20180315 173001 009][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173001 010][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 010][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173001 010][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173001 010][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173001 010][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173001 010][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173001 010][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173001 013][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 154][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d0b7c3a7a6eb11f1e66","result":"0","msg":""}
+[20180315 173001 155][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:146*****返回给商户侧报文:{"serialNo":"5aaa3d0b7c3a7a6eb11f1e66","result":"0","msg":""}
+[20180315 173001 168][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173001 168][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 168][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173001 168][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173001 168][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173001 169][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173001 169][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173001 169][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173001 173][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 435][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d0b09b23a2b46eaa958","result":"0","msg":""}
+[20180315 173001 435][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:267*****返回给商户侧报文:{"serialNo":"5aaa3d0b09b23a2b46eaa958","result":"0","msg":""}
+[20180315 173001 441][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173001 442][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 442][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173001 442][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173001 442][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173001 442][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173001 442][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173001 442][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173001 444][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 669][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d0ca3a8a97cac04ce3a","result":"0","msg":""}
+[20180315 173001 670][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:229*****返回给商户侧报文:{"serialNo":"5aaa3d0ca3a8a97cac04ce3a","result":"0","msg":""}
+[20180315 173001 676][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173001 676][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 676][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173001 676][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173001 677][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173001 677][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173001 677][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173001 677][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173001 678][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 815][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d0c7c3a7a6eb11f1e67","result":"0","msg":""}
+[20180315 173001 816][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:140*****返回给商户侧报文:{"serialNo":"5aaa3d0c7c3a7a6eb11f1e67","result":"0","msg":""}
+[20180315 173001 820][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173001 820][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 820][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173001 820][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173001 820][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173001 820][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173001 820][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173001 820][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173001 821][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 948][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d0cc7de367ca3f1d3e1","result":"0","msg":""}
+[20180315 173001 949][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:129*****返回给商户侧报文:{"serialNo":"5aaa3d0cc7de367ca3f1d3e1","result":"0","msg":""}
+[20180315 173001 954][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173001 955][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173001 955][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173001 955][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173001 955][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173001 955][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173001 955][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173001 955][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173001 956][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173002 140][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d0c09b23a2b46eaa95a","result":"0","msg":""}
+[20180315 173002 141][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:187*****返回给商户侧报文:{"serialNo":"5aaa3d0c09b23a2b46eaa95a","result":"0","msg":""}
+[20180315 173010 561][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000003: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 173010 563][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000003] 读10/4860B,写10/1910B,历时1734ms,读写速度:11.5(R+W/s)/3.90(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 173226 677][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x00000004: nio socket, server, /127.0.0.1:56766 => /127.0.0.1:9018)...Sessions=1
+[20180315 173226 678][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173226 678][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173226 678][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173226 678][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173226 678][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173226 678][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173226 678][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173226 678][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173226 680][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173226 817][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d9da3a8a97cac04ceb4","result":"0","msg":""}
+[20180315 173226 818][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:140*****返回给商户侧报文:{"serialNo":"5aaa3d9da3a8a97cac04ceb4","result":"0","msg":""}
+[20180315 173226 827][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173226 828][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173226 828][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173226 828][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173226 828][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173226 828][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173226 828][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173226 828][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173226 829][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173226 965][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d9d6069ce474b44e9ca","result":"0","msg":""}
+[20180315 173226 965][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:138*****返回给商户侧报文:{"serialNo":"5aaa3d9d6069ce474b44e9ca","result":"0","msg":""}
+[20180315 173226 971][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173226 971][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173226 971][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173226 971][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173226 971][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173226 971][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173226 971][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173226 971][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173226 973][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 110][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d9dc7de367ca3f1d45c","result":"0","msg":""}
+[20180315 173227 110][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:139*****返回给商户侧报文:{"serialNo":"5aaa3d9dc7de367ca3f1d45c","result":"0","msg":""}
+[20180315 173227 115][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173227 115][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 116][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173227 116][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173227 116][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173227 116][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173227 116][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173227 116][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173227 118][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 248][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d9da3a8a97cac04ceb6","result":"0","msg":""}
+[20180315 173227 248][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:133*****返回给商户侧报文:{"serialNo":"5aaa3d9da3a8a97cac04ceb6","result":"0","msg":""}
+[20180315 173227 255][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173227 255][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 255][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173227 255][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173227 255][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173227 255][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173227 255][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173227 255][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173227 256][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 413][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d9d6069ce474b44e9cc","result":"0","msg":""}
+[20180315 173227 413][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:158*****返回给商户侧报文:{"serialNo":"5aaa3d9d6069ce474b44e9cc","result":"0","msg":""}
+[20180315 173227 421][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173227 421][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 421][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173227 421][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173227 421][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173227 421][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173227 421][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173227 421][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173227 424][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 583][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d9ec7de367ca3f1d45d","result":"0","msg":""}
+[20180315 173227 584][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:163*****返回给商户侧报文:{"serialNo":"5aaa3d9ec7de367ca3f1d45d","result":"0","msg":""}
+[20180315 173227 590][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173227 590][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 590][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173227 590][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173227 590][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173227 590][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173227 590][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173227 590][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173227 592][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 719][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d9ea3a8a97cac04ceb7","result":"0","msg":""}
+[20180315 173227 720][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:129*****返回给商户侧报文:{"serialNo":"5aaa3d9ea3a8a97cac04ceb7","result":"0","msg":""}
+[20180315 173227 725][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173227 725][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 725][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173227 725][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173227 725][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173227 725][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173227 725][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173227 726][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173227 727][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 875][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d9ec7de367ca3f1d45e","result":"0","msg":""}
+[20180315 173227 875][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:150*****返回给商户侧报文:{"serialNo":"5aaa3d9ec7de367ca3f1d45e","result":"0","msg":""}
+[20180315 173227 880][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173227 880][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173227 880][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173227 880][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173227 880][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173227 880][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173227 880][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173227 880][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173227 882][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173228 012][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d98200a8f6bd1ac04bd","result":"0","msg":""}
+[20180315 173228 014][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:134*****返回给商户侧报文:{"serialNo":"5aaa3d98200a8f6bd1ac04bd","result":"0","msg":""}
+[20180315 173228 027][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173228 027][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173228 027][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173228 027][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173228 027][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173228 027][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173228 028][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173228 028][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173228 031][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173228 159][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3d9e6069ce474b44e9ce","result":"0","msg":""}
+[20180315 173228 160][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:133*****返回给商户侧报文:{"serialNo":"5aaa3d9e6069ce474b44e9ce","result":"0","msg":""}
+[20180315 173236 820][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000004: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 173236 821][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000004] 读10/4860B,写10/1910B,历时1485ms,读写速度:13.5(R+W/s)/4.56(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 173322 513][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x00000005: nio socket, server, /127.0.0.1:56852 => /127.0.0.1:9018)...Sessions=1
+[20180315 173322 514][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173322 514][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173322 514][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173322 514][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173322 514][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173322 514][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173322 514][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173322 514][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173322 516][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173322 665][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dd57f748c1c96ec2ff3","result":"0","msg":""}
+[20180315 173322 665][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:151*****返回给商户侧报文:{"serialNo":"5aaa3dd57f748c1c96ec2ff3","result":"0","msg":""}
+[20180315 173322 674][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173322 674][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173322 674][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173322 674][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173322 674][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173322 674][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173322 674][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173322 674][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173322 676][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173322 812][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dd56069ce474b44e9fb","result":"0","msg":""}
+[20180315 173322 813][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:139*****返回给商户侧报文:{"serialNo":"5aaa3dd56069ce474b44e9fb","result":"0","msg":""}
+[20180315 173322 818][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173322 818][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173322 818][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173322 818][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173322 818][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173322 818][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173322 818][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173322 818][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173322 820][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173322 958][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dd509b23a2b46eaaa06","result":"0","msg":""}
+[20180315 173322 959][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:141*****返回给商户侧报文:{"serialNo":"5aaa3dd509b23a2b46eaaa06","result":"0","msg":""}
+[20180315 173322 963][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173322 963][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173322 963][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173322 963][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173322 963][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173322 963][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173322 963][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173322 964][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173322 965][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 095][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dd56069ce474b44e9fc","result":"0","msg":""}
+[20180315 173323 096][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:133*****返回给商户侧报文:{"serialNo":"5aaa3dd56069ce474b44e9fc","result":"0","msg":""}
+[20180315 173323 101][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173323 101][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 101][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173323 101][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173323 101][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173323 101][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173323 101][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173323 101][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173323 102][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 237][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dd57c3a7a6eb11f1f13","result":"0","msg":""}
+[20180315 173323 238][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:137*****返回给商户侧报文:{"serialNo":"5aaa3dd57c3a7a6eb11f1f13","result":"0","msg":""}
+[20180315 173323 242][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173323 242][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 242][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173323 242][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173323 243][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173323 243][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173323 243][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173323 243][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173323 244][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 370][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dcf200a8f6bd1ac04ed","result":"0","msg":""}
+[20180315 173323 371][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:129*****返回给商户侧报文:{"serialNo":"5aaa3dcf200a8f6bd1ac04ed","result":"0","msg":""}
+[20180315 173323 375][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173323 375][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 375][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173323 375][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173323 375][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173323 375][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173323 375][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173323 375][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173323 377][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 521][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dd609b23a2b46eaaa07","result":"0","msg":""}
+[20180315 173323 521][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:146*****返回给商户侧报文:{"serialNo":"5aaa3dd609b23a2b46eaaa07","result":"0","msg":""}
+[20180315 173323 526][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173323 526][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 526][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173323 527][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173323 527][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173323 527][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173323 527][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173323 527][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173323 528][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 702][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dd6a3a8a97cac04cee7","result":"0","msg":""}
+[20180315 173323 703][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:177*****返回给商户侧报文:{"serialNo":"5aaa3dd6a3a8a97cac04cee7","result":"0","msg":""}
+[20180315 173323 957][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173323 957][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173323 957][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173323 957][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173323 957][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173323 957][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173323 957][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173323 957][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173323 959][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173324 094][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dd67c3a7a6eb11f1f14","result":"0","msg":""}
+[20180315 173324 095][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:138*****返回给商户侧报文:{"serialNo":"5aaa3dd67c3a7a6eb11f1f14","result":"0","msg":""}
+[20180315 173324 100][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 173324 100][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173324 100][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173324 100][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173324 100][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173324 100][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173324 100][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：116
+[20180315 173324 100][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 173324 102][INFO ][pool-2-thread-1][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173324 243][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3dd6c7de367ca3f1d48e","result":"0","msg":""}
+[20180315 173324 244][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:144*****返回给商户侧报文:{"serialNo":"5aaa3dd6c7de367ca3f1d48e","result":"0","msg":""}
+[20180315 173332 667][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000005: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 173332 668][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000005] 读10/4860B,写10/1910B,历时1731ms,读写速度:11.6(R+W/s)/3.91(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 173341 745][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x00000006: nio socket, server, /127.0.0.1:56923 => /127.0.0.1:9018)...Sessions=1
+[20180315 173341 746][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173341 746][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173341 746][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173341 746][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173341 746][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173341 746][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173341 746][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173341 746][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173341 747][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173341 881][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3de86069ce474b44ea0a","result":"0","msg":""}
+[20180315 173341 881][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:135*****返回给商户侧报文:{"serialNo":"5aaa3de86069ce474b44ea0a","result":"0","msg":""}
+[20180315 173341 889][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173341 890][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173341 890][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173341 890][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173341 890][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173341 890][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173341 890][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173341 890][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173341 892][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 027][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3de8c7de367ca3f1d49b","result":"0","msg":""}
+[20180315 173342 028][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:139*****返回给商户侧报文:{"serialNo":"5aaa3de8c7de367ca3f1d49b","result":"0","msg":""}
+[20180315 173342 033][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173342 033][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 033][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173342 033][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173342 033][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173342 033][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173342 033][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173342 033][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173342 035][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 177][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3de809b23a2b46eaaa14","result":"0","msg":""}
+[20180315 173342 177][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:144*****返回给商户侧报文:{"serialNo":"5aaa3de809b23a2b46eaaa14","result":"0","msg":""}
+[20180315 173342 183][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173342 183][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 183][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173342 183][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173342 183][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173342 183][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173342 183][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173342 183][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173342 185][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 317][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3de8a3a8a97cac04cef5","result":"0","msg":""}
+[20180315 173342 318][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:135*****返回给商户侧报文:{"serialNo":"5aaa3de8a3a8a97cac04cef5","result":"0","msg":""}
+[20180315 173342 328][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173342 328][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 328][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173342 328][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173342 328][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173342 328][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173342 328][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173342 328][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173342 332][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 467][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3de97c3a7a6eb11f1f22","result":"0","msg":""}
+[20180315 173342 467][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:139*****返回给商户侧报文:{"serialNo":"5aaa3de97c3a7a6eb11f1f22","result":"0","msg":""}
+[20180315 173342 471][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173342 472][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 472][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173342 472][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173342 472][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173342 472][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173342 472][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173342 472][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173342 473][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 601][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3de3200a8f6bd1ac04fb","result":"0","msg":""}
+[20180315 173342 602][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:131*****返回给商户侧报文:{"serialNo":"5aaa3de3200a8f6bd1ac04fb","result":"0","msg":""}
+[20180315 173342 614][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173342 614][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 614][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173342 614][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173342 614][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173342 614][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173342 614][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173342 614][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173342 617][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173342 756][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3de909b23a2b46eaaa15","result":"0","msg":""}
+[20180315 173342 758][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:144*****返回给商户侧报文:{"serialNo":"5aaa3de909b23a2b46eaaa15","result":"0","msg":""}
+[20180315 173351 883][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000006: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 173351 884][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000006] 读7/3402B,写7/1337B,历时1014ms,读写速度:13.8(R+W/s)/4.67(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 173614 976][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x00000007: nio socket, server, /127.0.0.1:57245 => /127.0.0.1:9018)...Sessions=1
+[20180315 173614 978][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 173614 978][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173614 978][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180315 173614 978][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径http://service.funinbook.com/api/umpay/CheckIdCardMobile：
+[20180315 173614 978][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180315 173614 978][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：text/plain
+[20180315 173614 978][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：116
+[20180315 173614 978][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 173614 981][INFO ][pool-2-thread-2][ReqInfoBean] - 以postBodyData方式请求,url为:http://service.funinbook.com/api/umpay/CheckIdCardMobile  请求信息为:{"name":"赖远柑","mobile":"15814363933","cardno":"441621197908144493","token":"682dc9c826ac8fdc3de8b1d0333c65ee"}
+[20180315 173615 115][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"serialNo":"5aaa3e7b200a8f6bd1ac0580","result":"0","msg":""}
+[20180315 173615 116][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:138*****返回给商户侧报文:{"serialNo":"5aaa3e7b200a8f6bd1ac0580","result":"0","msg":""}
+[20180315 173625 119][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x00000007: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 173625 120][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x00000007] 读1/486B,写1/191B,历时142ms,读写速度:14.1(R+W/s)/4.77(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 195947 195][INFO ][main][NamedProperties] - U 更新 refresh(com.bs3.ioc.core.BeansContext) = [23] file:/D:/workspace/lianDongYouShi/Dps-httpDrawboard/resource/mina2niocs.properties
+[20180315 195947 761][INFO ][main][BeansContext] - # Beans Defined  3 [NioExecutor, NioServer, NioServerHandler]
+[20180315 195947 762][INFO ][main][BeansContext] - # Beans Started  3 [NioExecutor, NioServer, NioServerHandler]
+[20180315 195947 762][INFO ][main][NioServerHandler] - 初始化跳板服务成功
+[20180315 200023 130][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000002: nio socket, server, /127.0.0.1:58159 => /127.0.0.1:9018)...Sessions=1
+[20180315 200023 175][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 200023 340][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：loginId=ldys&passWord=684bb4266e50209818a28d4c66bb5729920621ed
+[20180315 200023 374][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postParams
+[20180315 200023 374][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径https://58.247.119.27/sh-cupi/restFul/userInfo1：
+[20180315 200023 379][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：500，读取超时时间3000：
+[20180315 200023 379][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：application/x-www-form-urlencoded; charset=UTF-8
+[20180315 200023 379][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：62
+[20180315 200023 379][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 200023 488][INFO ][pool-2-thread-1][ReqInfoBean] - 以postParams方式请求,url为:https://58.247.119.27/sh-cupi/restFul/userInfo1  请求信息为:loginId=ldys&passWord=684bb4266e50209818a28d4c66bb5729920621ed
+[20180315 200024 347][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:<html><head><title>Apache Tomcat/6.0.45 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /sh-cupi/restFul/userInfo1</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/sh-cupi/restFul/userInfo1</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.45</h3></body></html>
+[20180315 200024 355][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:1179*****返回给商户侧报文:<html><head><title>Apache Tomcat/6.0.45 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /sh-cupi/restFul/userInfo1</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/sh-cupi/restFul/userInfo1</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.45</h3></body></html>
+[20180315 200024 356][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x00000002: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 200024 358][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x00000002] 读1/423B,写1/1133B,历时1234ms,读写速度:1.6(R+W/s)/1.26(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 200235 072][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000003: nio socket, server, /127.0.0.1:58388 => /127.0.0.1:9018)...Sessions=1
+[20180315 200235 078][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 200235 082][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：loginId=ldys&passWord=684bb4266e50209818a28d4c66bb5729920621ed
+[20180315 200235 082][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postParams
+[20180315 200235 082][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径https://58.247.119.27/sh-cupi/restFul/userInfo1：
+[20180315 200235 082][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：500，读取超时时间3000：
+[20180315 200235 082][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：application/x-www-form-urlencoded; charset=UTF-8
+[20180315 200235 082][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：62
+[20180315 200235 083][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 200306 843][INFO ][pool-2-thread-1][ReqInfoBean] - 以postParams方式请求,url为:https://58.247.119.27/sh-cupi/restFul/userInfo1  请求信息为:loginId=ldys&passWord=684bb4266e50209818a28d4c66bb5729920621ed
+[20180315 200319 750][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:<html><head><title>Apache Tomcat/6.0.45 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /sh-cupi/restFul/userInfo1</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/sh-cupi/restFul/userInfo1</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.45</h3></body></html>
+[20180315 200319 752][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:44674*****返回给商户侧报文:<html><head><title>Apache Tomcat/6.0.45 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /sh-cupi/restFul/userInfo1</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/sh-cupi/restFul/userInfo1</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.45</h3></body></html>
+[20180315 200319 753][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000003: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 200319 754][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000003] 读1/423B,写0/0B,历时11ms,读写速度:90.9(R+W/s)/38.45(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 200648 900][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x00000004: nio socket, server, /127.0.0.1:58989 => /127.0.0.1:9018)...Sessions=1
+[20180315 200648 904][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180315 200648 905][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：loginId=ldys&passWord=684bb4266e50209818a28d4c66bb5729920621ed
+[20180315 200648 906][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postParams
+[20180315 200648 906][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/，代理的路径https://58.247.119.27/sh-cupi/restFul/getToken：
+[20180315 200648 906][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：500，读取超时时间3000：
+[20180315 200648 907][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：application/x-www-form-urlencoded; charset=UTF-8
+[20180315 200648 907][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：62
+[20180315 200648 907][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180315 200717 601][INFO ][pool-2-thread-2][ReqInfoBean] - 以postParams方式请求,url为:https://58.247.119.27/sh-cupi/restFul/getToken  请求信息为:loginId=ldys&passWord=684bb4266e50209818a28d4c66bb5729920621ed
+[20180315 200717 943][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:{"signature":"659af331fef336e6276014c75240893d","timestamp":"2018-03-15 20:07:04","status":"0","desc":"成功"}
+[20180315 200717 944][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:29040*****返回给商户侧报文:{"signature":"659af331fef336e6276014c75240893d","timestamp":"2018-03-15 20:07:04","status":"0","desc":"成功"}
+[20180315 200717 946][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x00000004: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 200717 947][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x00000004] 读1/422B,写0/0B,历时8ms,读写速度:125.0(R+W/s)/52.75(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 200835 491][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000005: nio socket, server, /127.0.0.1:59148 => /127.0.0.1:9018)...Sessions=1
+[20180315 200835 492][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 200835 492][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：loginId=ldys&passWord=684bb4266e50209818a28d4c66bb5729920621ed
+[20180315 200835 492][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postParams
+[20180315 200835 492][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径https://58.247.119.27/sh-cupi/restFul/getToken：
+[20180315 200835 492][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：500，读取超时时间3000：
+[20180315 200835 492][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：application/x-www-form-urlencoded; charset=UTF-8
+[20180315 200835 492][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：62
+[20180315 200835 492][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 200835 495][INFO ][pool-2-thread-1][ReqInfoBean] - 以postParams方式请求,url为:https://58.247.119.27/sh-cupi/restFul/getToken  请求信息为:loginId=ldys&passWord=684bb4266e50209818a28d4c66bb5729920621ed
+[20180315 200835 758][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:{"signature":"a42bcc06f2faf343b2ee71a8e7fee5cf","timestamp":"2018-03-15 20:08:22","status":"0","desc":"成功"}
+[20180315 200835 759][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:267*****返回给商户侧报文:{"signature":"a42bcc06f2faf343b2ee71a8e7fee5cf","timestamp":"2018-03-15 20:08:22","status":"0","desc":"成功"}
+[20180315 200835 762][INFO ][pool-2-thread-2][Mina2H4Abstract] - * (0x00000005: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 200835 764][INFO ][pool-2-thread-2][Mina2H4Abstract] - * [0x00000005] 读1/422B,写1/242B,历时272ms,读写速度:7.4(R+W/s)/2.44(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180315 200835 833][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000006: nio socket, server, /127.0.0.1:59150 => /127.0.0.1:9018)...Sessions=1
+[20180315 200835 834][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180315 200835 835][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：loginId=ldys&cusCode=100000000&telephone=17196622699&name=陆传海&card=34120319780106441X&token=a42bcc06f2faf343b2ee71a8e7fee5cf
+[20180315 200835 835][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postParams
+[20180315 200835 835][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/，代理的路径https://58.247.119.27/sh-cupi/restFul/userInfo1：
+[20180315 200835 835][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：500，读取超时时间3000：
+[20180315 200835 835][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型：application/x-www-form-urlencoded; charset=UTF-8
+[20180315 200835 835][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度：148
+[20180315 200835 835][INFO ][pool-2-thread-1][NioServerHandler] - 发起请求
+[20180315 200835 837][INFO ][pool-2-thread-1][ReqInfoBean] - 以postParams方式请求,url为:https://58.247.119.27/sh-cupi/restFul/userInfo1  请求信息为:loginId=ldys&cusCode=100000000&telephone=17196622699&name=陆传海&card=34120319780106441X&token=a42bcc06f2faf343b2ee71a8e7fee5cf
+[20180315 200836 133][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:<html><head><title>Apache Tomcat/6.0.45 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /sh-cupi/restFul/userInfo1</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/sh-cupi/restFul/userInfo1</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.45</h3></body></html>
+[20180315 200836 133][INFO ][pool-2-thread-1][NioServerHandler] - 共耗时:299*****返回给商户侧报文:<html><head><title>Apache Tomcat/6.0.45 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /sh-cupi/restFul/userInfo1</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/sh-cupi/restFul/userInfo1</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.45</h3></body></html>
+[20180315 200836 136][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000006: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180315 200836 137][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000006] 读1/510B,写1/1133B,历时303ms,读写速度:6.6(R+W/s)/5.42(KB/s)...Mina2HandlerAbstract.onClosed()

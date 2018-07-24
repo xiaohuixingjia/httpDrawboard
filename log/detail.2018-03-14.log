@@ -1,0 +1,172 @@
+[20180314 182754 357][INFO ][main][NamedProperties] - U 更新 refresh(com.bs3.ioc.core.BeansContext) = [23] file:/D:/workspace/lianDongYouShi/Dps-httpDrawboard/resource/mina2niocs.properties
+[20180314 182754 931][INFO ][main][BeansContext] - # Beans Defined  3 [NioExecutor, NioServer, NioServerHandler]
+[20180314 182754 931][INFO ][main][BeansContext] - # Beans Started  3 [NioExecutor, NioServer, NioServerHandler]
+[20180314 182754 932][INFO ][main][NioServerHandler] - 初始化前置服务成功
+[20180314 182812 627][INFO ][pool-2-thread-1][Mina2H4Abstract] - O (0x00000002: nio socket, server, /127.0.0.1:60525 => /127.0.0.1:9018)...Sessions=1
+[20180314 182818 455][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180314 182820 120][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>UMPTEST53714420180309105156</transid>
+  <datetime>20180309105156</datetime>
+  <retcode>0000</retcode>
+  <mobileid>4b8609c2c59640edcaf5fa0f204defe1</mobileid>
+  <querymonth>201607</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">660</value><value m="2">1440</value><value m="3">10</value><value m="4">1930</value><value m="5">9540</value><value m="6">6280</value><value m="7">1310</value><value m="8">830</value><value m="9">5092</value><value m="10">0</value><value m="11">1000</value><value m="12">350</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">165040</value><value m="2">57275</value><value m="3">41640</value><value m="4">138864</value><value m="5">108130</value><value m="6">301899</value><value m="7">88224</value><value m="8">100467</value><value m="9">88698</value><value m="10">1000</value><value m="11">31290</value><value m="12">53990</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">4</value><value m="2">2</value><value m="3">4</value><value m="4">2</value><value m="5">2</value><value m="6">2</value><value m="7">2</value><value m="8">4</value><value m="9">2</value><value m="10">unknown</value><value m="11">4</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">19590</value><value m="2">1950</value><value m="3">1800</value><value m="4">15480</value><value m="5">1900</value><value m="6">1900</value><value m="7">1800</value><value m="8">1970</value><value m="9">1700</value><value m="10">unknown</value><value m="11">1950</value><value m="12">1810</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">44540</value><value m="2">5008</value><value m="3">280</value><value m="4">17446</value><value m="5">1900</value><value m="6">209</value><value m="7">3810</value><value m="8">50</value><value m="9">2000</value><value m="10">unknown</value><value m="11">300</value><value m="12">15200</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">16</value><value m="2">3</value><value m="3">1</value><value m="4">9</value><value m="5">4</value><value m="6">2</value><value m="7">8</value><value m="8">1</value><value m="9">1</value><value m="10">unknown</value><value m="11">1</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201304</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>201712</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">10</value><value m="2">5</value><value m="3">unknown</value><value m="4">1</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">1</value><value m="9">7</value><value m="10">unknown</value><value m="11">2</value><value m="12">8</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">9</value>
+</Label>
+
+</request>
+[20180314 182820 149][INFO ][pool-2-thread-1][NioServerHandler] - 请求的类型：postBodyData
+[20180314 182820 150][INFO ][pool-2-thread-1][NioServerHandler] - 请求的路径：/query/data，代理的路径http://localhost:9013/query：
+[20180314 182820 160][INFO ][pool-2-thread-1][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180314 182820 160][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数类型application/x-www-form-urlencoded：
+[20180314 182820 160][INFO ][pool-2-thread-1][NioServerHandler] - 请求的参数长度3641：
+[20180314 182841 838][INFO ][pool-2-thread-1][NioServerHandler] - 解析请求的参数
+[20180314 182848 043][ERROR][pool-2-thread-1][NioServerHandler] - 处理异常，返回空信息
+java.nio.BufferUnderflowException: null
+	at java.nio.HeapByteBuffer.get(Unknown Source) ~[na:1.8.0_111]
+	at org.apache.mina.core.buffer.AbstractIoBuffer.get(AbstractIoBuffer.java:615) ~[mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.buffer.AbstractIoBuffer.get(AbstractIoBuffer.java:1321) ~[mina-core-2.0.7.jar:na]
+	at com.umpay.proxyservice.NioServerHandler.getRequXml(NioServerHandler.java:108) ~[classes/:na]
+	at com.umpay.proxyservice.NioServerHandler.getReqInfo(NioServerHandler.java:56) ~[classes/:na]
+	at com.umpay.proxyservice.NioServerHandler.onServerReadReq(NioServerHandler.java:36) ~[classes/:na]
+	at com.bs3.nio.mina2.Mina2H4Rpc.afterReceived(Mina2H4Rpc.java:189) [bs3-4.2.0.jar:na]
+	at com.bs3.nio.mina2.Mina2H4Abstract.messageReceived(Mina2H4Abstract.java:278) [bs3-4.2.0.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$TailFilter.messageReceived(DefaultIoFilterChain.java:690) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:417) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:765) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.codec.ProtocolCodecFilter$ProtocolDecoderOutputImpl.flush(ProtocolCodecFilter.java:407) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.codec.ProtocolCodecFilter.messageReceived(ProtocolCodecFilter.java:236) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.callNextMessageReceived(DefaultIoFilterChain.java:417) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain.access$1200(DefaultIoFilterChain.java:47) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.DefaultIoFilterChain$EntryImpl$1.messageReceived(DefaultIoFilterChain.java:765) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.filterchain.IoFilterEvent.fire(IoFilterEvent.java:74) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.core.session.IoEvent.run(IoEvent.java:63) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTask(OrderedThreadPoolExecutor.java:769) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.runTasks(OrderedThreadPoolExecutor.java:761) [mina-core-2.0.7.jar:na]
+	at org.apache.mina.filter.executor.OrderedThreadPoolExecutor$Worker.run(OrderedThreadPoolExecutor.java:703) [mina-core-2.0.7.jar:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_111]
+[20180314 182848 044][INFO ][pool-2-thread-1][NioServerHandler] - 返回的报文如下:
+[20180314 182848 082][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000002: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180314 182848 085][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000002] 读1/3951B,写1/129B,历时35462ms,读写速度:0.1(R+W/s)/0.12(KB/s)...Mina2HandlerAbstract.onClosed()
+[20180314 182854 211][INFO ][pool-2-thread-2][Mina2H4Abstract] - O (0x00000003: nio socket, server, /127.0.0.1:60591 => /127.0.0.1:9018)...Sessions=1
+[20180314 182855 942][INFO ][pool-2-thread-2][NioServerHandler] - 解析请求的参数
+[20180314 182856 218][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数：<?xml version="1.0" encoding="UTF-8"?>
+<request>
+  <funcode>Gcs2000006</funcode>
+  <transid>UMPTEST53714420180309105156</transid>
+  <datetime>20180309105156</datetime>
+  <retcode>0000</retcode>
+  <mobileid>4b8609c2c59640edcaf5fa0f204defe1</mobileid>
+  <querymonth>201607</querymonth>
+  <Label>
+	<id>Pro00003</id><value m="1">660</value><value m="2">1440</value><value m="3">10</value><value m="4">1930</value><value m="5">9540</value><value m="6">6280</value><value m="7">1310</value><value m="8">830</value><value m="9">5092</value><value m="10">0</value><value m="11">1000</value><value m="12">350</value>
+</Label>
+<Label>
+	<id>Pro00002</id><value m="1">165040</value><value m="2">57275</value><value m="3">41640</value><value m="4">138864</value><value m="5">108130</value><value m="6">301899</value><value m="7">88224</value><value m="8">100467</value><value m="9">88698</value><value m="10">1000</value><value m="11">31290</value><value m="12">53990</value>
+</Label>
+<Label>
+	<id>Pro00110</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00104</id><value m="1">12350</value><value m="2">1600</value><value m="3">3850</value><value m="4">8680</value><value m="5">8960</value><value m="6">6030</value><value m="7">4950</value><value m="8">19880</value><value m="9">2050</value><value m="10">4800</value><value m="11">2040</value><value m="12">2810</value>
+</Label>
+<Label>
+	<id>Pro00070</id><value m="1">4</value><value m="2">2</value><value m="3">4</value><value m="4">2</value><value m="5">2</value><value m="6">2</value><value m="7">2</value><value m="8">4</value><value m="9">2</value><value m="10">unknown</value><value m="11">4</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00069</id><value m="1">19590</value><value m="2">1950</value><value m="3">1800</value><value m="4">15480</value><value m="5">1900</value><value m="6">1900</value><value m="7">1800</value><value m="8">1970</value><value m="9">1700</value><value m="10">unknown</value><value m="11">1950</value><value m="12">1810</value>
+</Label>
+<Label>
+	<id>Pro00051</id><value m="1">44540</value><value m="2">5008</value><value m="3">280</value><value m="4">17446</value><value m="5">1900</value><value m="6">209</value><value m="7">3810</value><value m="8">50</value><value m="9">2000</value><value m="10">unknown</value><value m="11">300</value><value m="12">15200</value>
+</Label>
+<Label>
+	<id>Pro00050</id><value m="1">16</value><value m="2">3</value><value m="3">1</value><value m="4">9</value><value m="5">4</value><value m="6">2</value><value m="7">8</value><value m="8">1</value><value m="9">1</value><value m="10">unknown</value><value m="11">1</value><value m="12">6</value>
+</Label>
+<Label>
+	<id>Pro00711</id><value>201304</value>
+</Label>
+<Label>
+	<id>Pro00717</id><value>201712</value>
+</Label>
+<Label>
+	<id>Pro00406</id><value>2</value>
+</Label>
+<Label>
+	<id>Pro00174</id><value m="1">10</value><value m="2">5</value><value m="3">unknown</value><value m="4">1</value><value m="5">unknown</value><value m="6">unknown</value><value m="7">unknown</value><value m="8">1</value><value m="9">7</value><value m="10">unknown</value><value m="11">2</value><value m="12">8</value>
+</Label>
+<Label>
+	<id>Pro00616</id><value m="1">unknown</value>
+</Label>
+<Label>
+	<id>Pro00617</id><value m="1">9</value>
+</Label>
+
+</request>
+[20180314 182856 221][INFO ][pool-2-thread-2][NioServerHandler] - 请求的类型：postBodyData
+[20180314 182856 222][INFO ][pool-2-thread-2][NioServerHandler] - 请求的路径：/query/data，代理的路径http://localhost:9013/query：
+[20180314 182856 224][INFO ][pool-2-thread-2][NioServerHandler] - 请求的连接超时时间：1000，读取超时时间3000：
+[20180314 182856 226][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数类型：application/x-www-form-urlencoded
+[20180314 182856 227][INFO ][pool-2-thread-2][NioServerHandler] - 请求的参数长度：3641
+[20180314 182900 391][INFO ][pool-2-thread-2][NioServerHandler] - 发起请求
+[20180314 182913 165][INFO ][pool-2-thread-2][NioServerHandler] - 返回的报文如下:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>UMPTEST53714420180309105156</transid>
+    <datetime>20180314182902</datetime>
+    <retcode>0000</retcode>
+    <score>560</score>
+</response>
+
+[20180314 182913 167][INFO ][pool-2-thread-2][NioServerHandler] - 共耗时:17929*****返回给商户侧报文:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+    <funcode>Gcs2000006</funcode>
+    <transid>UMPTEST53714420180309105156</transid>
+    <datetime>20180314182902</datetime>
+    <retcode>0000</retcode>
+    <score>560</score>
+</response>
+
+[20180314 182913 170][INFO ][pool-2-thread-1][Mina2H4Abstract] - * (0x00000003: NioSocketAcceptor, null => 0.0.0.0/0.0.0.0:9018)...Sessions=0
+[20180314 182913 171][INFO ][pool-2-thread-1][Mina2H4Abstract] - * [0x00000003] 读1/3951B,写1/386B,历时18957ms,读写速度:0.1(R+W/s)/0.23(KB/s)...Mina2HandlerAbstract.onClosed()
