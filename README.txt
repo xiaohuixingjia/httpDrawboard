@@ -12,3 +12,14 @@ postParams 代表客户端的请求的信息是以表单提交的格式请求过
 
 
 如果正常响应 则返回响应报文，如果有异常则返回空字符串，返回的信息类型为：text/plain
+
+
+httpUtil工具类是一个使用代理访问的样例，具备自动回切功能 他的访问使用的配置参数为：
+##代理发送的url
+proxyUrl=http://ip:port
+##连续错误多少次后使用代理进行发送
+maxErrorTimes=20
+##代理使用一定次数后回调测试
+maxUseProxyTimes=40
+##代理是否可用
+proxyCanUse=true
